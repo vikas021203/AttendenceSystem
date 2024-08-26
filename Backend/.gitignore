@@ -21,4 +21,4 @@ dist/
 Thumbs.db
 
 #Security Key
-.serviceAccountKey.json
+serviceAccountKey.json
