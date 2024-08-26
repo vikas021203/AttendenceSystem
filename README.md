@@ -1,4 +1,27 @@
-# Project Setup
+## About the Project
+
+This project is an attendance management system that utilizes face recognition technology to automate the process of marking attendance. The system is designed to streamline attendance tracking and ensure accurate records by leveraging modern computer vision techniques.
+
+### Key Features
+
+- **Face Recognition**: Utilizes advanced face recognition algorithms to identify and verify students.
+- **Automated Attendance Marking**: Automatically marks attendance based on facial recognition, reducing manual effort and improving accuracy.
+- **Student Registration**: New students must register by providing their details and capturing their facial images for the system to recognize them.
+- **Real-Time Processing**: Captures and processes student images in real-time to mark attendance during class sessions.
+
+### How It Works
+
+1. **Registration**: New students need to register by providing their information and capturing their facial images. These images are used to create face encodings that are stored in the database.
+2. **Attendance Marking**: During class sessions, the system captures live images of students and matches them against the stored face encodings to mark attendance.
+3. **Backend Integration**: The backend server handles the face recognition and attendance marking logic, interacting with Firebase for data storage and retrieval.
+
+### Requirements
+
+- **Frontend**: The frontend interface allows students to register and view their attendance records.
+- **Backend**: The backend server processes face recognition and manages student data.
+- **Firebase**: Used for storing face encodings and other relevant data.
+
+### Getting Started
 
 This project consists of both frontend and backend components. To run both servers simultaneously, follow the steps below in separate terminal windows.
 
