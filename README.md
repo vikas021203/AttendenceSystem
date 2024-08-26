@@ -7,6 +7,7 @@ This project is an attendance management system that utilizes face recognition t
 - **Face Recognition**: Utilizes advanced face recognition algorithms to identify and verify students.
 - **Automated Attendance Marking**: Automatically marks attendance based on facial recognition, reducing manual effort and improving accuracy.
 - **Student Registration**: New students must register by providing their details and capturing their facial images for the system to recognize them.
+- **Real-Time Processing**: Captures and processes student images in real-time to mark attendance before class sessions.
 
 ### How It Works
 
